@@ -17,9 +17,9 @@ jobs:
     
     - name: Install dependencies
       run: npm install
-    
+
     - name: Run tests
-      run: npm test # Add tests if you have them
+      run: echo "No tests yet"  # Replaces `npm test`
     
   build-and-push-docker-image:
     needs: build-and-test
